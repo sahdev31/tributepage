@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Lobster;
+}
+// styleing for name  class name
+.name{
+    background-color: rgb(227, 232, 236);
+    text-align: center;
+}
+
+#img-div{
+    color: white;
+    background-color: rgb(20, 20, 20);
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 3px 10px rgb(227, 232, 236);
+    border-radius: 1%;
+    }
+
+    
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#tribute-info p{
+    padding: 10px;
+    list-style: decimal;
+    text-align: "";
+}
+
+#ul-info > li{
+    list-style-position: inside;
+    padding: 10px;
+}
